@@ -1,7 +1,7 @@
 {
 	"name": "browser-has-hover",
 	"version": "1.0.0",
-	"description": "Adds a 'has-hover' class to the body if the user can hover with their device (i.e. not a touch device). Also exposes a 'hasHover' constant to be used in your JavaScript",
+	"description": "Adds a `has-hover` class to the body if the user can hover with their device (i.e. not a touch device), which allows you to write conditional CSS to only apply hover pseudo selectors if the `has-hover` class exists, preventing the double click issue on touch devices. Also exposes a `hasHover` constant to be used in your JavaScript.",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
   "author": "Ben Meyrick <bameyrick@gmail.com>",
